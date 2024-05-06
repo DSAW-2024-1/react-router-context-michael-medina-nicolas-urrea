@@ -6,7 +6,9 @@
 
 
 ### link pagina desplegada 
-[![https://react-router-urrea-medina.vercel.app/login](https://react-router-urrea-medina.vercel.app/login)
+https://react-router-urrea-medina.vercel.app/login
+
+
 ## Router Seguro con React.js
 
 ### Objetivo
