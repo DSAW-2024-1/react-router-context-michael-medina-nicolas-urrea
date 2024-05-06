@@ -19,7 +19,9 @@ const authReducer = (state = {}, action) => {
 };
 
 export const AuthProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(authReducer, {});
+  const [state, dispatch] = useReducer(authReducer, {
+    isLoggedIn: localStorage.getItem('loggedInUser') === 'true',
+  });
 
   const login = () => {
     dispatch({ type: 'LOGIN' });
